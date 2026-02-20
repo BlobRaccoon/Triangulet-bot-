@@ -100,7 +100,7 @@ class CommandBot {
         this.socket.on('message', (data) => {
             const raw = data.toString();
             
-            if (raw === "2") { this.socket.send("3"); this.send("BLOB BOT IS ACTIVE FOR USE, USE !help TO GET STARTED 🟢"); return; }
+            if (raw === "2") { this.socket.send("3"); return; }
             if (raw.startsWith("0")) { 
                 this.socket.send(`40${JSON.stringify({ token: this.token })}`); 
             }
