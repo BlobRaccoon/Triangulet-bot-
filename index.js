@@ -1,4 +1,4 @@
-const WebSocket = require('ws');
+import WebSocket from 'ws';
 class TrianguletBot {
     constructor(token, username) {
         this.token = this.formatToken(token);
