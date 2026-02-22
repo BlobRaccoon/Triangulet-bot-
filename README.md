@@ -1,2 +1,3 @@
 # Triangulet-bot-
-by blob_raccoon and tester Mathboy2Alt
+by blob_raccoon
+No copying no more triangulet devs :D
